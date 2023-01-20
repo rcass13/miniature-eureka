@@ -1,6 +1,8 @@
 ## Note Taker 
 
+
 # Acceptance Criteria 
+
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
@@ -15,8 +17,21 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
+
 ## What I learned
+
 This challenge familiarized me with how to use localhost and routing. The routing was a very straightforward concept, but very difficult to execute. I had fun with this challenge, it was difficult, but thankfully having starter code let me enjoy the small things as I learned them because I didn't have to worry about HTML or CSS. I used Heroku, also for the first time, which proved to be a little confusing but I overall like it, 
 
+
 ## Screenshots
+
 Screenshots are located in ./public/assets/Screenshots
+
+
+## Links
+
+Heroku Deployment: 
+https://note-taker-app-rc13.herokuapp.com/
+
+Github Repo:
+https://github.com/rcass13/miniature-eureka 
