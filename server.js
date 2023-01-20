@@ -1,6 +1,7 @@
 //dependencies
 const fs = require('fs');
 const util = require('util');
+
 const apiRoutes = require ('./routes/api.routes')
 const htmlRoutes = require ('./routes/html.routes');
 //set up express
@@ -32,6 +33,7 @@ app.listen(PORT,() => {
     console.log(`App listening on PORT ${PORT}`);
 
 })
- 
-// module.exports = router;
+
+
+
 module.exports = app;

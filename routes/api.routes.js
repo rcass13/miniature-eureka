@@ -45,7 +45,7 @@ router.delete("/notes/:id", function(req, res) {
     } else {
         let parsedData = JSON.parse(data);
         parsedData = parsedData.filter(currentNote => currentNote.id != noteId);
-        fs.writeFile('../, JSON.stringify(parsedData, null, 4), err => {
+        fs.writeFile('./db/db.json', JSON.stringify(parsedData, null, 4), err => {
           if (err) {
             console.error(err);
           } else {
